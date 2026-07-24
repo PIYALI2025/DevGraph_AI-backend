@@ -1,0 +1,13 @@
+# Environment files
+.env
+.myenv
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+
+# Node
+node_modules/
