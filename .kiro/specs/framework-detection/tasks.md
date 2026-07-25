@@ -15,7 +15,7 @@ Implement the framework detection capability as a new `FrameworkDetector` servic
   - _Requirements: 1.2, 4.2, 4.4_
 
 - [-] 2. Implement `FrameworkDetector` service
-  - [ ] 2.1 Create `backend/app/services/framework_detector.py` with the `FRAMEWORK_INDICATORS` registry and `FrameworkDetector` class
+  - [x] 2.1 Create `backend/app/services/framework_detector.py` with the `FRAMEWORK_INDICATORS` registry and `FrameworkDetector` class
     - Implement synchronous `detect(repo_path: str) -> FrameworkResult` method
     - Parse `package.json` (dependencies + devDependencies) for JS frameworks
     - Parse `requirements.txt`, `pyproject.toml`, `Pipfile`, `setup.py` for Python frameworks using case-insensitive matching
